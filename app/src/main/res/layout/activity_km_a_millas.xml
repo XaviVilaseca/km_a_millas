@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xavi.km_a_millas.Km_a_millasActivity">
+
+    <Button
+        android:id="@+id/btn_acabar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_txt_km"
+        android:layout_marginTop="45dp"
+        android:layout_toEndOf="@+id/txt_km"
+        android:layout_toRightOf="@+id/txt_km"
+        android:text="@string/acabar"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit_txt_km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit_txt_millas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@+id/btn_acabar"
+        android:layout_alignLeft="@+id/edit_txt_km"
+        android:layout_alignStart="@+id/edit_txt_km" />
+
+    <TextView
+        android:id="@+id/txt_km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edit_txt_km"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_toLeftOf="@+id/edit_txt_km"
+        android:layout_toStartOf="@+id/edit_txt_km"
+        android:text="@string/Km"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_millas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edit_txt_millas"
+        android:layout_alignLeft="@+id/txt_km"
+        android:layout_alignStart="@+id/txt_km"
+        android:text="@string/Millas"
+        android:textSize="24sp" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Km_a_millas</string>
+    <string name="confirmacion">Estas seguro de querer abandonar la aplicación?</string>
+    <string name="acabar">Acabar</string>
+    <string name="broma">Es broma no se como acabar con la aplicación</string>
+    <string name="Km" translatable="false">Kilómetros</string>
+    <string name="Millas">Millas</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Km_a_millas</string>
+    <string name="acabar">Finish</string>
+    <string name="broma">I do not know how to finish the application</string>
+    <string name="confirmacion">\"Are you sure you want to leave the application \"</string>
+    <string name="Millas">Miles</string>
+</resources>
